@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- i'll make changes once i learn more about how i should position every element in a proper way and group them so i don't have to unnecessarily make change in every elements
+
+
+There are a lot of images that can be used so i am keeping them in this repository.
+
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav_Library</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navul">
+                <li class="navlist">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="navlist">
+                    <a href="#">ABOUT</a>
+                </li>
+                <li class="navlist">
+                    <a href="#">CONTACT</a>
+                </li>
+                <li class="navlist">
+                    <a href="#">BLOG</a>
+                </li>
+                <li class="navlist" id="search">
+                    <input type="text" placeholder="Search the Book" />
+                </li>
+                <img src="/Img/search.png" id="icon" alt="..." />
+                <!-- <img src="/Img/haze.png" id="logo" alt="..."> -->
+
+                <!-- I couldn't add the image inside the button -->
+
+                <!-- <button type="button" id="menu_btn"> -->
+                <!-- <img src="/Img/menu2.png" id="menu" alt="..."> -->
+                <!-- </button> -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="registration_form">
+        <form action="#">
+            <!-- 
+                I don't know why this code isn't working i mean it is working but the problem is it's not giving a good response the heading is move from one place to another and i can't find any overflow issue and i certainly can't find out why the div's not taking all the width maybe because it has to inline elements or no well that's not the case because the form is full of these stuffs and well it's not well coded it's messy if something goes wrong i'll have to make changes in all of the properties 
+
+                i spent quite a lot of time on it so i should move to learning next parts 
+                
+                <div id="form_top">
+                    <img class="logos" id="library_logo" src="/Img/wisdom.png" alt="Library Logo" />
+                    <h1 id="form_heading" class="form_attributes">Take the Membership Today</h1>
+                </div>
+
+             -->
+            <div id="form_top">
+                <!-- class="form_attributes" -->
+                <img class="logos" id="library_logo" src="/Img/wisdom.png" alt="Library Logo" />
+                <h1 id="form_heading">Take the Membership Today</h1>
+            </div>
+
+
+            <div class="attribute" id="first_attribute">
+                <h4 class="form_attributes" id="name">Name</h4>
+                <input type="textidid=" id="name_input" class="inputs" placeholder="Enter your name Here" />
+            </div>
+
+            <div class="attribute" id="second_attribute">
+                <h4 class="form_attributes" id="age">Age</h4>
+                <input type="number" id="age_input" class="inputs" placeholder="Enter your Age Here" />
+            </div>
+
+            <div class="attribute" id="third_attribute">
+                <h4 class="form_attributes" id="contact">Contact</h4>
+                <input type="number" id="contact_input" class="inputs" placeholder="Enter your Contact Here" />
+            </div>
+
+            <div class="attribute" id="fourth_attribute">
+                <h4 class="form_attributes" id="email">Email</h4>
+                <input type="text" id="email_input" class="inputs" placeholder="Enter your Email Here" />
+            </div>
+            <button class="buttons" id="form_submit_btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

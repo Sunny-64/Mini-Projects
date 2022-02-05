@@ -2,6 +2,8 @@ import time
 from plyer import notification
 
 if __name__ == "__main__": 
+   # To run the script in the background you can type -->  pythonw.exe or schedule it using windows scheduler if
+   # using windows scheduler if you are on windows.
    while True: 
       notification.notify(
        title = "Drink Water fool You fool",
